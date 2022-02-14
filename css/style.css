@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(to right,#660669,#0ea4df);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    overflow: hidden;
+}
+.one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    
+}
+.one h1{
+    text-align: center;
+    padding: 20px,0px,20px,0px;
+}
+.two{
+    margin: 0 0 0 40px;
+    
+}
+.two input{
+    width: 310px;
+    height: 30px;
+    border: 1px solid rgb(197, 188, 188);
+}
+.three{
+    margin: 0 0 0 40px;
+    position: absolute;
+    top: 150px;
+}
+.three input{
+    width: 310px;
+    height: 30px;
+    border: 1px solid rgb(197, 188, 188);
+}
+.four a{
+    text-decoration: none;
+    margin: 0 0 0 40px;
+    position: absolute;
+    top: 210px;
+    color: #0ea4df;
+}
+.four a:hover{
+    text-decoration: underline;
+}
+.five a{
+    text-decoration: none;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    text-align: center;
+    width: 315px;
+    height: 10px;
+    border: 1px solid rgb(197, 188, 188);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right,#660669,#0ea4df);
+    color: white;
+}
+.six{
+    margin: 0 0 0 40px;
+    position: absolute;
+    top: 325px;
+    left: 55px;
+}
+.six a{
+    text-decoration: none;
+    color: #0ea4df;
+}
+.six a:hover{
+    text-decoration: underline;
+}
